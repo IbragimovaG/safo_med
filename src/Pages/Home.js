@@ -4,9 +4,9 @@ import {RightOutlined, StarFilled} from "@ant-design/icons";
 function Home(props) {
     return (
         <div>
-            <div id={'home'} className={'lg:flex px-32  w-full '}>
-                <div className={'lg:w-6/12 w-full lg:pt-20'}>
-                    <h1 className={'font-bold text-5xl pt-20 '}>
+            <div id={'home'} className={'lg:flex lg:px-32 px-5  w-full '}>
+                <div className={'lg:w-6/12 w-full lg:pt-20 text-center lg:text-start'}>
+                    <h1 className={'font-bold text-5xl lg:pt-20 pt-40'}>
                         <span id={'color'} className={'font-bold text-5xl'}>SAFO MED </span>Angredagi
                         Zamonaviy <span id={'color'} className={'font-bold text-5xl'}>LOR</span> Markazi
                     </h1>
@@ -15,11 +15,12 @@ function Home(props) {
                         style={{color: '#0084D4'}}>LOR</span> a’zolari kasalliklari bo’yicha barcha turdagi xizmlatlar
                         ko’rsatish sharoitiga ega.
                     </p>
-                    <button id={'background'}
-                            className={'lg:mt-20 px-8 py-3 text-white rounded-lg font-medium text-xl'}>Murojaat
-                        qilish <RightOutlined className={'text-white '}/></button>
+                        <button id={'background'}
+                                className={'lg:mt-20 px-8 py-3 text-white rounded-lg font-medium text-xl'}>Murojaat
+                            qilish <RightOutlined className={'text-white '}/></button>
+
                     <p className={'text-gray-400 font-medium mt-10'}>Ijtimoiy tarmoqlardan bizni kuzatib boring</p>
-                    <div className={'flex gap-5 mt-3'}>
+                    <div className={'flex gap-5 mt-3  px-5 lg:px-0'}>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.7">
                                 <path
