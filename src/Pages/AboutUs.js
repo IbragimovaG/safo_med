@@ -15,40 +15,40 @@ function AboutUs(props) {
                             <h1>1</h1>
                         </div>
                         <div id={'background'}
-                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute top-48 -left-8'}>
+                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute lg:top-48 top-60 -left-8'}>
                             <h1>2</h1>
                         </div>
                         <div id={'background'}
-                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute -bottom-0 -left-8'}>
+                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute lg:bottom-0 -bottom-16 -left-8'}>
                             <h1>3</h1>
                         </div>
                     </div>
-                    <div className={'w-96 absolute lg:left-60 lg:top-24 left-28 top-12'}>
+                    <div className={'lg:w-96 w-60 absolute lg:left-60 lg:top-24 left-28 top-12'}>
                         <h1 className={'lg:text-3xl text-2xl font-bold text-start'}>Profilingizni yarating</h1>
-                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-8/12'} style={{color:'#6D6D6D'}}>Ro'yxatdan o'ting va tibbiy tarixingizni xavfsiz
+                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-60 '} style={{color:'#6D6D6D'}}>Ro'yxatdan o'ting va tibbiy tarixingizni xavfsiz
                             tarzda to'ldiring. Profilingizni shu tarzda o'rnatish sizning tibbiy jarayonlaringizdan
                             xabardor bo'lishingizni ta'minlaydi.</p>
                     </div>
-                    <div className={'w-96 absolute lg:left-60 lg:top-72 left-28 bottom-64'}>
+                    <div className={'lg:w-96 w-60 absolute lg:left-60 lg:top-72 left-28 bottom-48'}>
                         <h1 className={'lg:text-3xl text-2xl font-bold text-start'}>Xizmatingizni tanlang</h1>
-                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-8/12'} style={{color:'#6D6D6D'}}> Xizmatlarimiz qatoridan tanlang va maslahat uchun
+                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-full'} style={{color:'#6D6D6D'}}> Xizmatlarimiz qatoridan tanlang va maslahat uchun
                             buyurtma bering.
                             HealNet bilan maslahatlashuvni bron qilish juda oddiy va tushunarli.</p>
                     </div>
-                    <div className={'w-96 absolute lg:left-60 lg:bottom-3 left-28 bottom-5'}>
-                        <h1 className={'lg:text-3xl text-2xl lg:w-full w-8/12 font-bold text-start'}>Doktoringiz bilan tanishing</h1>
-                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-8/12'} style={{color:'#6D6D6D'}} >Sertifikatlangan mutaxassislarimizdan biri bilan virtual maslahatlashing yoki
+                    <div className={'lg:w-96 w-60 absolute lg:left-60 lg:bottom-3 left-28 -bottom-10'}>
+                        <h1 className={'lg:text-3xl text-2xl lg:w-full w-full font-bold text-start'}>Doktoringiz bilan tanishing</h1>
+                        <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-full'} style={{color:'#6D6D6D'}} >Sertifikatlangan mutaxassislarimizdan biri bilan virtual maslahatlashing yoki
                             jismoniy tekshiruvdan o'tishni tanlagan bo'lsangiz, shifokorga jismoniy tashrif buyuring.</p>
                     </div>
                 </div>
                 <div className={'w-1/2 h-full relative'}>
                     <div
-                        className={'lg:w-96 w-80 lg:h-80 h-52 border border-2 rounded-2xl border-blue-300 absolute z-0 lg:top-60 lg:left-20 top-10 left-8'}
+                        className={'lg:w-96 w-80 lg:h-80 h-52 border border-2 rounded-2xl border-blue-300 absolute z-0 lg:top-60 lg:left-20 top-20 left-8'}
                         id={'background2'}></div>
-                    <img  className={'absolute lg:top-40 lg:left-16 top-10 left-20'} src={require('../Assets/doctor3.png')} alt=""/>
-                    <img className={'absolute lg:top-48 lg:left-96 top-18 left-60'} src={require('../Assets/Group 27.png')} alt=""/>
+                    <img  className={'absolute lg:top-40 lg:left-16 top-20 left-20'} src={require('../Assets/doctor3.png')} alt=""/>
+                    <img className={'absolute lg:top-48 lg:left-96 top-10 left-64'} src={require('../Assets/Group 27.png')} alt=""/>
                     <div
-                        className={'absolute lg:bottom-40 w-80 lg:left-40 bottom-96 bg-white py-2  rounded-lg shadow-lg text-start font-bold flex'}
+                        className={'absolute lg:bottom-40 w-80 lg:left-40 bottom-80 bg-white py-2  rounded-lg shadow-lg text-start font-bold flex'}
                         style={{color: '#0069AB'}}><StarFilled className={'mx-6'}/>
                     <h4>Eng yaxshi sertifikatlangan
                         mutaxassislar jamoasi</h4></div>
