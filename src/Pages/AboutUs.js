@@ -9,7 +9,7 @@ function AboutUs(props) {
             <div className={'lg:flex'}  style={{height:'90vh'}}>
                 <div className={'w-1/2 h-full lg:pt-20 relative'}>
                     <div style={{height: '60vh'}}
-                         className={'border-l border-l-2 w-1/3 border-dashed border-blue-400 absolute lg:left-40 left-14 lg:top-20 lg:top-32 top-10 '}>
+                         className={'border-l border-l-2 w-1/3 border-dashed border-blue-400 absolute lg:left-40 left-14 lg:top-20  top-10 '}>
                         <div id={'background'}
                              className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute top-0 -left-8'}>
                             <h1>1</h1>
@@ -43,10 +43,10 @@ function AboutUs(props) {
                 </div>
                 <div className={'w-1/2 h-full relative'}>
                     <div
-                        className={'lg:w-96 w-80 lg:h-80 h-52 border border-2 rounded-2xl border-blue-300 absolute z-0 lg:bottom-32 lg:right-28 top-10 left-8'}
+                        className={'lg:w-96 w-80 lg:h-80 h-52 border border-2 rounded-2xl border-blue-300 absolute z-0 lg:top-60 lg:left-20 top-10 left-8'}
                         id={'background2'}></div>
-                    <img  className={'absolute lg:top-32 lg:left-28 top-10 left-20'} src={require('../Assets/doctor3.png')} alt=""/>
-                    <img className={'absolute lg:top-48 lg:right-14 top-18 left-60'} src={require('../Assets/Group 27.png')} alt=""/>
+                    <img  className={'absolute lg:top-40 lg:left-16 top-10 left-20'} src={require('../Assets/doctor3.png')} alt=""/>
+                    <img className={'absolute lg:top-48 lg:left-96 top-18 left-60'} src={require('../Assets/Group 27.png')} alt=""/>
                     <div
                         className={'absolute lg:bottom-40 w-80 lg:left-40 bottom-96 bg-white py-2  rounded-lg shadow-lg text-start font-bold flex'}
                         style={{color: '#0069AB'}}><StarFilled className={'mx-6'}/>
