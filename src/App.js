@@ -9,7 +9,7 @@ import AboutUs from "./Pages/AboutUs";
 function App() {
   return (
     <div className="App w-full">
-<Navbar/>
+        <Navbar/>
         <Home/>
         <MurojaatUchun/>
         <Service/>

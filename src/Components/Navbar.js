@@ -25,8 +25,8 @@ const toggleMenu = () => {
             <img src={require('../Assets/NavLogo.png')} alt=""/>
             <ul id={'ul'}
                 className={`fixed inset-0 flex flex-col items-center justify-center bg-white z-10 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:static md:flex-row md:gap-8 lg:gap-16 md:bg-transparent md:translate-x-0`}>
-                <li><a id={'#aboutUs'} className={'text-black font-medium'} href="#aboutUs">BIZ HAQIMIZDA</a></li>
-                <li><a id={'#service'} className={'text-black font-medium'} href="#service">XIZMATLAR</a></li>
+                <li><a id={'a'} className={'text-black font-medium'} href="#aboutUs">BIZ HAQIMIZDA</a></li>
+                <li><a id={'a'} className={'text-black font-medium'} href="#service">XIZMATLAR</a></li>
                 <li><a id={'a'} className={'text-black font-medium'} href="#info">SHIFOKORLAR</a></li>
                 <li><a id={'a'} className={'text-black font-medium'} href="#contact">KONTAKTLAR</a></li>
                 <button id={'background'}
