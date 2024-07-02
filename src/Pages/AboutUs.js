@@ -11,15 +11,15 @@ function AboutUs(props) {
                     <div style={{height: '60vh'}}
                          className={'border-l border-l-2 w-1/3 border-dashed border-blue-400 absolute lg:left-40 left-14 lg:top-20  top-10 '}>
                         <div id={'background'}
-                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute top-0 -left-8'}>
+                             className={'p-2 w-16 h-16 text-5xl rounded-full text-white absolute top-0 -left-8'}>
                             <h1>1</h1>
                         </div>
                         <div id={'background'}
-                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute lg:top-48 top-60 -left-8'}>
+                             className={'p-2 w-16 h-16 text-5xl rounded-full text-white absolute lg:top-48 top-60 -left-8'}>
                             <h1>2</h1>
                         </div>
                         <div id={'background'}
-                             className={'p-1 w-16 h-16 text-5xl rounded-full text-white absolute lg:bottom-0 -bottom-16 -left-8'}>
+                             className={'p-2 w-16 h-16 text-5xl rounded-full text-white absolute lg:bottom-0 -bottom-16 -left-8'}>
                             <h1>3</h1>
                         </div>
                     </div>

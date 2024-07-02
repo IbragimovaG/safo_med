@@ -27,3 +27,21 @@ html{
 #background2{
    background-image:linear-gradient(-45deg, #C0EAFF,#ffFFFFFF ,#ffffff);
 }
+#background3{
+   background-image: linear-gradient(130deg, #C0EAFF,#ffffff,#ffffff);
+}
+#background4{
+   background-image: linear-gradient(-130deg, #C0EAFF,#ffffff,#ffffff);
+}
+@media only screen and (max-width: 900px){
+   .column1{
+      padding: 0 0 0  115px;
+   }
+   .column2{
+      margin-top: 70vh;
+   }
+   .column3{
+      padding: 0 0 0  130px;
+margin-top: 140vh;
+   }
+}

@@ -5,6 +5,7 @@ import MurojaatUchun from "./Pages/MurojaatUchun";
 import Service from "./Pages/Service";
 import Info from "./Pages/Info";
 import AboutUs from "./Pages/AboutUs";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Service/>
         <Info/>
         <AboutUs/>
+        <Blog/>
     </div>
   );
 }

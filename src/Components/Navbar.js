@@ -42,7 +42,7 @@ const toggleMenu = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
             </button>
-            <Modal title="Basic Modal" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+            <Modal title="Doctor bilan bog'lanish uchun ma'lumotingizni kiriting" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 <input
                     className={'py-2 my-2  w-full text-xl px-2 text-blue-700 border border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl'}
                     type="text" placeholder={'Ismingizni kiriting'}/>
