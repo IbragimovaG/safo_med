@@ -6,7 +6,7 @@ import person4 from '../Assets/Rectangle 8 (3).svg'
 
 function Blog(props) {
     return (
-        <div className={'w-full lg:h-screen h-full lg:mt-44 pt-96 lg:pt-0 mt-96 px-5 relative'}>
+        <div className={'w-full lg:h-screen h-[270vh] lg:mt-44 pt-96 lg:pt-0 mt-96 px-5 relative'}>
             <h1 className={'text-center font-bold'} style={{fontSize: '40px'}}>Eng yaxshi sertifikatlangan mutaxassislar
                 jamoasi</h1>
             <p className={'lg:text-xl text-gray-400 text-center lg:mt-20 mt-5'}>Biz xizmat qilganlarning ovozi orqali

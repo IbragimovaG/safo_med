@@ -4,7 +4,9 @@
 #background{
    background-image:linear-gradient(90deg, #A7E2FF,#0095DE);
 }
-
+#color2{
+   color:linear-gradient(to right, #0179B4, #88D8FF) ;
+}
 #color {
    background: linear-gradient(to right, #0179B4, #88D8FF);
    -webkit-background-clip: text;
@@ -12,6 +14,7 @@
    background-clip: text;
    color: transparent;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 body{
    font-family: 'Manrope', sans-serif;

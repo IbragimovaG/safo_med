@@ -6,6 +6,9 @@ import Service from "./Pages/Service";
 import Info from "./Pages/Info";
 import AboutUs from "./Pages/AboutUs";
 import Blog from "./Pages/Blog";
+import Doctors from './Pages/Doctors';
+import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Info/>
         <AboutUs/>
         <Blog/>
+        <Doctors/>
+        <Contact/>
+        <Footer/>
     </div>
   );
 }
