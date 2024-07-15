@@ -18,7 +18,7 @@ function App() {
     AOS.init({})
   },[])
   return (
-    <div className="App w-full">
+    <div className="App">
         <Navbar/>
         <Home/>
         <MurojaatUchun/>

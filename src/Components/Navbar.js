@@ -21,10 +21,9 @@ const toggleMenu = () => {
     };
 
     return (
-        <div id={'navbar'} className={'w-full h-20 py-5 flex  items-center lg:justify-around justify-between lg:px-0 px-5 fixed bg-white z-50'}>
+        <div id={'navbar'} className={'w-full h-20 py-5 flex  items-center lg:justify-around justify-between lg:px-0 px-10 fixed bg-white z-40'}>
             <img src={require('../Assets/NavLogo.png')} alt=""/>
-            <ul id={'ul'}
-                className={`fixed inset-0 flex flex-col items-center justify-center gap-2 bg-white w-[50%] z-10 transform ${isOpen ? 'translate-x-0' : '-translate-x-full' } transition-transform duration-300 md:static md:flex-row md:gap-8 lg:gap-16 md:bg-transparent md:translate-x-0`}>
+            <ul id={'ul'} className={`fixed inset-0 flex flex-col items-center justify-center gap-2 bg-white w-[50%] z-50 transform ${isOpen ? 'translate-x-0' : '-translate-x-full' } transition-transform duration-300 md:static md:flex-row md:gap-8 lg:gap-16 md:bg-transparent md:translate-x-0`}>
                 <li><a id={'a'} className={'text-black font-medium'} href="#aboutUs">BIZ HAQIMIZDA</a></li>
                 <li><a id={'a'} className={'text-black font-medium'} href="#service">XIZMATLAR</a></li>
                 <li><a id={'a'} className={'text-black font-medium'} href="#info">SHIFOKORLAR</a></li>
@@ -49,10 +48,10 @@ const toggleMenu = () => {
             </button>
             <Modal title="Doctor bilan bog'lanish uchun ma'lumotingizni kiriting" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 <input
-                    className={'py-2 my-2  w-full text-xl px-2 text-blue-700 border border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl'}
+                    className={'py-2 my-2  w-full text-xl px-2 text-blue-700  border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl'}
                     type="text" placeholder={'Ismingizni kiriting'}/>
                 <input
-                    className={'py-2 my-2 w-full text-xl px-2 text-blue-700 border border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl'}
+                    className={'py-2 my-2 w-full text-xl px-2 text-blue-700 border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl'}
                     type="tel" placeholder={'Telefon raqamingizni kiriting'}/>
             </Modal>
         </div>

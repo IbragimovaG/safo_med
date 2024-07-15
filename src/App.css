@@ -48,3 +48,6 @@ html{
 margin-top: 140vh;
    }
 }
+.App{
+   overflow-x: hidden;
+}
