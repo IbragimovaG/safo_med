@@ -9,8 +9,14 @@ import Blog from "./Pages/Blog";
 import Doctors from './Pages/Doctors';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
+import AOS from 'aos'
+import { useEffect } from 'react';
+
 
 function App() {
+  useEffect(()=>{
+    AOS.init({})
+  },[])
   return (
     <div className="App w-full">
         <Navbar/>

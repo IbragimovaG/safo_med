@@ -6,7 +6,7 @@ import { IoArrowForwardCircleSharp } from "react-icons/io5";
 export default function Contact() {
   return (
     <div id='contact' className='h-[50vh] w-full text-center'>
-<h1 className='text-4xl font-bold'>
+<h1 data-aos='zoom-in' className='text-4xl font-bold'>
 Sizga qanday yordam kerak ?
 </h1>
 <h4 className='text-xl text-gray-400 my-10'>

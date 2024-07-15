@@ -8,9 +8,9 @@ function Info(props) {
                 </h1>
                 <div className={'lg:flex p-10'}>
                     <div className={'lg:w-1/2 w-full'}>
-                        <img className={'lg:mt-10'} src={require('../Assets/Doctor2.png')} alt=""/>
+                        <img data-aos='fade-right' className={'lg:mt-10'} src={require('../Assets/Doctor2.png')} alt=""/>
                     </div>
-                    <div className={'lg:w-1/2 w-full'}>
+                    <div data-aos='fade-left' className={'lg:w-1/2 w-full'}>
                         <p className={'mt-5'}>SAFO MED- bu shunchaki onlayn tibbiy xizmatdan ko'proq; bu hamma uchun qulay,
                             samarali va mehrli sog'liqni saqlashga qaratilgan harakat. Vizyonli shifokorlar,
                             sog'liqni saqlash sohasi mutaxassislari va texnologiya mutaxassislari jamoasi tomonidan

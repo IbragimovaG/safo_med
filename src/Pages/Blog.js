@@ -12,8 +12,8 @@ function Blog(props) {
             <p className={'lg:text-xl text-gray-400 text-center lg:mt-20 mt-5'}>Biz xizmat qilganlarning ovozi orqali
                 biz qanday farq borligini bilib oling:</p>
             <img className={'absolute lg:flex hidden lg:left-32 left-5 lg:top-40 '} src={require('../Assets/Vector cyrcle.png')} alt=""/>
-            <div className={'absolute -left-28 lg:left-4 lg:top-40 px-32 lg:mt-12 mt-24 lg:ml-5 lg:flex gap-32 column1'}>
-                <div className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
+            <div  className={'absolute -left-28 lg:left-4 lg:top-40 px-32 lg:mt-12 mt-24 lg:ml-5 lg:flex gap-32 column1'}>
+                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
                      id={'background3'}>
                     <img className={'mx-3'} src={person1} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>"Tizzimdagi jarrohlik amaliyotimdan so'ng,
@@ -21,7 +21,7 @@ function Blog(props) {
                         qulayligi mening tiklanishimni men tasavvur qilganimdan ham osonlashtirdi."
                         - Linda A.</p>
                 </div>
-                <div className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
+                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
                      id={'background4'}>
                     <img className={'mx-3'} src={person2} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>"Qandli diabet kabi surunkali
@@ -48,8 +48,8 @@ function Blog(props) {
                     <p className={'text-center text-gray-500'}>Eng yaxshi mutaxassislar</p>
                 </div>
             </div>
-            <div className={'absolute -left-32  lg:left-4 lg:bottom-8 px-32 lg:mt-12 lg:ml-5  lg:flex gap-32 z-10 column3'}>
-                <div className={'flex lg:w-2/5 lg:mt-0 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
+            <div  className={'absolute -left-32  lg:left-4 lg:bottom-8 px-32 lg:mt-12 lg:ml-5  lg:flex gap-32 z-10 column3'}>
+                <div data-aos='zoom-down' className={'flex lg:w-2/5 lg:mt-0 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
                      id={'background3'}>
                     <img className={'mx-3'} src={person3} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>“Retsept bo'yicha to'ldirish tizimi mening
@@ -57,7 +57,7 @@ function Blog(props) {
                         muammosiz."
                         - Joshua T.</p>
                 </div>
-                <div className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
+                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-96 lg:h-32 h-40 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 py-5 my-5 lg:my-0'}
                      id={'background4'}>
                     <img className={'mx-3'} src={person4} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>“Sog'ligimga bo'lgan barcha ehtiyojlarimni

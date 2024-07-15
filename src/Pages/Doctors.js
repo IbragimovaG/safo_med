@@ -6,8 +6,8 @@ function Doctors(props) {
         <div id='info' className='lg:mt-32 mt-52 relative w-full lg:h-[180vh] h-[200vh]'>
             <img className=' lg:block hidden absolute -z-10 top-60 left-72 ' src={require('../Assets/Group 29.png')} alt="" />
             <img className=' lg:block hidden absolute -z-10 bottom-40 right-72 ' src={require('../Assets/Group 28.png')} alt="" />
-            <h1 className='text-5xl text-center font-bold'>Shifokorlar</h1>
-            <p className=' text-center text-gray-400 lg:w-6/12 w-11/12 m-auto my-10'>Bizning mutaxassislar jamoasi tibbiy innovatsiyalar bo'yicha yetakchi hisoblanadi. Sog'ligingiz eng yaxshi qo'llarda bo'lishini ta'minlash uchun har bir mutaxassis tajriba, hamdardlik va tajribaning noyob aralashmasini olib keladi</p>
+            <h1 data-aos='fade-down'  className='text-5xl text-center font-bold'>Shifokorlar</h1>
+            <p  data-aos='zoom-out' className=' text-center text-gray-400 lg:w-6/12 w-11/12 m-auto my-10'>Bizning mutaxassislar jamoasi tibbiy innovatsiyalar bo'yicha yetakchi hisoblanadi. Sog'ligingiz eng yaxshi qo'llarda bo'lishini ta'minlash uchun har bir mutaxassis tajriba, hamdardlik va tajribaning noyob aralashmasini olib keladi</p>
             <div className='flex flex-col lg:gap-20 m-auto lg:w-[80%] lg:h-[100vh] w-[100%] h-[100vh]'>
                 <div className='lg:w-8/12 w-11/12 lg:h-[50%] m-auto mt-16  rounded-3xl lg:text-start text-center  bg-sky-400 flex'>
                <img className=' z-1 w-[80%] h-[55vh] lg:block hidden -ml-4 -mt-10 left-72' src={require('../Assets/Doctors1.png')} alt="" />

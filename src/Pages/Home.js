@@ -2,25 +2,26 @@ import React from 'react';
 import {RightOutlined, StarFilled} from "@ant-design/icons";
 
 function Home(props) {
+
     return (
         <div>
             <div id={'home'} className={'lg:flex lg:px-32 px-5  w-full '}>
-                <div className={'lg:w-6/12 w-full lg:pt-20 text-center lg:text-start'}>
-                    <h1 className={'font-bold text-5xl lg:pt-20 pt-40'}>
+                <div  className={'lg:w-6/12 w-full lg:pt-20 text-center lg:text-start'}>
+                    <h1 data-aos="fade-down" className={'font-bold text-5xl lg:pt-20 pt-40'}>
                         <span id={'color'} className={'font-bold text-5xl'}>SAFO MED </span>Angredagi
                         Zamonaviy <span id={'color'} className={'font-bold text-5xl'}>LOR</span> Markazi
                     </h1>
-                    <p style={{fontSize: '17px'}} className={'py-10'}>
+                    <p data-aos="fade-down" style={{fontSize: '17px'}} className={'py-10'}>
                         <span style={{color: '#0084D4'}}> SAFO MED</span> Klinikasi <span
                         style={{color: '#0084D4'}}>LOR</span> a’zolari kasalliklari bo’yicha barcha turdagi xizmlatlar
                         ko’rsatish sharoitiga ega.
                     </p>
-                        <button id={'background'}
+                        <button data-aos="fade-right" id={'background'}
                                 className={'lg:mt-20 px-8 py-3 text-white rounded-lg font-medium text-xl'}>Murojaat
                             qilish <RightOutlined className={'text-white '}/></button>
 
                     <p className={'text-gray-400 font-medium mt-10'}>Ijtimoiy tarmoqlardan bizni kuzatib boring</p>
-                    <div className={'flex gap-5 mt-3  px-10 lg:px-0'}>
+                    <div data-aos="fade-right" className={'flex gap-5 mt-3  px-10 lg:px-0'}>
                         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.7">
                                 <path
@@ -117,19 +118,19 @@ function Home(props) {
                         </svg>
                     </div>
                 </div>
-                <div className={'w-6/12 pt-20 relative hidden lg:block'}>
-                    <img className={'absolute bottom-16 right-0'} src={require('../Assets/Doctor.png')} alt=""/>
-                    <div
+                <div  className={'w-6/12 pt-20 relative hidden lg:block'}>
+                    <img data-aos='fade-left' className={'absolute bottom-16 right-0'} src={require('../Assets/Doctor.png')} alt=""/>
+                    <div data-aos='fade-right'
                         className={'z-30 absolute bottom-32 left-10 bg-white py-2 px-4 rounded-lg shadow-lg font-medium'}
                         style={{color: '#0069AB'}}><StarFilled className={'mx-2'}/> Navbatda turishlarsiz ko’rikdan
                         o’ting
                     </div>
-                    <div
+                    <div data-aos='fade-right'
                         className={'w-64 absolute bg-white bottom-52 z-30 -right-10 rounded-lg border border-2 p-5 border-blue-200'}>
                         <img height={'200'} className={' '} src={require('../Assets/card2.png')} alt=""/>
                     </div>
                     <img className={'absolute bottom-14 right-60 z-40'} src={require('../Assets/vector3.png')} alt=""/>
-                    <div
+                    <div data-aos='fade-down'
                         className={'z-30 bg-blue-50 border border-2 border-blue-300 absolute -bottom-10 right-0 p-8 text-gray-500 bg-white rounded-lg shadow-lg font-medium'}>
                         <p>
                             Bir necha marta bosish orqali kerakli <br/> tibbiy ma'lumotlarni oling.</p></div>
