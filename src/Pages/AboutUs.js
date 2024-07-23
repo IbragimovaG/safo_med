@@ -29,13 +29,13 @@ function AboutUs(props) {
                             tarzda to'ldiring. Profilingizni shu tarzda o'rnatish sizning tibbiy jarayonlaringizdan
                             xabardor bo'lishingizni ta'minlaydi.</p>
                     </div>
-                    <div data-aos='zoom-out' className={'lg:w-96 w-60 absolute lg:left-60 lg:top-72 left-28 bottom-48'}>
+                    <div data-aos='zoom-out' className={'lg:w-96 w-60 absolute top-72 lg:left-60 lg:top-72 left-28 bottom-48'}>
                         <h1 className={'lg:text-3xl text-2xl font-bold text-start'}>Xizmatingizni tanlang</h1>
                         <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-full'} style={{color:'#6D6D6D'}}> Xizmatlarimiz qatoridan tanlang va maslahat uchun
                             buyurtma bering.
                             HealNet bilan maslahatlashuvni bron qilish juda oddiy va tushunarli.</p>
                     </div>
-                    <div data-aos='zoom-out' className={'lg:w-96 w-60 absolute lg:left-60 lg:bottom-3 left-28 -bottom-10'}>
+                    <div data-aos='zoom-out' className={'lg:w-96 w-60 absolute  lg:left-60 lg:bottom-3 left-28 -bottom-5'}>
                         <h1 className={'lg:text-3xl text-2xl lg:w-full w-full font-bold text-start'}>Doktoringiz bilan tanishing</h1>
                         <p className={'text-gray-500 text-start lg:py-3 py-1 lg:w-10/12 w-full'} style={{color:'#6D6D6D'}} >Sertifikatlangan mutaxassislarimizdan biri bilan virtual maslahatlashing yoki
                             jismoniy tekshiruvdan o'tishni tanlagan bo'lsangiz, shifokorga jismoniy tashrif buyuring.</p>
