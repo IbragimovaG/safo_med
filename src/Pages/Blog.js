@@ -13,24 +13,24 @@ function Blog(props) {
                 biz qanday farq borligini bilib oling:</p>
             <img className={'absolute lg:flex hidden lg:left-32 left-5 lg:top-40 '} src={require('../Assets/Vector cyrcle.png')} alt=""/>
             <div  className={'absolute -left-28 lg:left-4 lg:top-40 px-32 lg:mt-12 mt-24 lg:ml-5 lg:flex gap-32 column1'}>
-                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-auto lg:h-32 h-44 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
+                    <div data-aos='zoom-down' className={'lg:flex lg:w-2/5 w-[90%] lg:h-32 h-52 text-center m-auto rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
                      id={'background3'}>
-                    <img className={'mx-3'} src={person1} alt=""/>
+                    <img className={'lg:mx-3 ml-32 lg:mb-0 mb-1'} src={person1} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>"Tizzimdagi jarrohlik amaliyotimdan so'ng,
                         onlayn maslahatlar
                         qulayligi mening tiklanishimni men tasavvur qilganimdan ham osonlashtirdi."
                         - Linda A.</p>
                 </div>
-                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-auto lg:h-32 h-44 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
+                    <div data-aos='zoom-down' className={'lg:flex lg:w-2/5 w-[90%] lg:h-32 h-52 text-center m-auto rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
                      id={'background4'}>
-                    <img className={'mx-3'} src={person2} alt=""/>
+                    <img className={'lg:mx-3 ml-32 lg:mb-0 mb-1'} src={person2} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>"Qandli diabet kabi surunkali
                         kasalliklarni boshqarish juda ehtiyotkorlikni talab qiladi, ammo dori-darmonlarni to'ldirish
                         tizimi hayotimni soddalashtirdi."
                         - Genri B.</p>
                 </div>
             </div>
-            <div className={'lg:flex absolute lg:top-48  lg:left-48 left-20 items-center justify-center  gap-14 mt-56 column2'}>
+            <div className={'lg:flex absolute lg:top-48 lg:mt-0 bottom-56 lg:left-48 left-20 items-center justify-center  gap-14  column2'}>
                 <div className={'lg:w-60 w-38 h-32 text-center'}>
                     <h1 className={'text-5xl font-bold'} id={'color'}>10,000+</h1>
                     <p className={'text-center text-gray-500'}>Muvaffaqiyatli maslahatlashuvlar</p>
@@ -49,17 +49,17 @@ function Blog(props) {
                 </div>
             </div>
             <div  className={'absolute -left-32  lg:left-4 lg:bottom-8 px-32 lg:mt-12 lg:ml-5  lg:flex gap-32 z-10 column3'}>
-                <div data-aos='zoom-down' className={'flex lg:w-2/5 lg:mt-0 w-auto lg:h-32 h-44 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
+                    <div data-aos='zoom-down' className={'lg:flex lg:w-2/5 lg:mt-0 w-[90%] lg:h-32 h-52 text-center m-auto rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
                      id={'background3'}>
-                    <img className={'mx-3'} src={person3} alt=""/>
+                    <img className={'lg:mx-3 ml-32 lg:mb-0 mb-1'} src={person3} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>“Retsept bo'yicha to'ldirish tizimi mening
                         diabetimni boshqarish uchun o'yinni o'zgartiradi. Bu haqiqatan ham samarali va mutlaqo
                         muammosiz."
                         - Joshua T.</p>
                 </div>
-                <div data-aos='zoom-down' className={'flex lg:w-2/5 w-auto lg:h-32 h-44 rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
+                    <div data-aos='zoom-down' className={'lg:flex lg:w-2/5 w-[90%] lg:h-32 h-52 text-center m-auto rounded-3xl  border-2 border-blue-300 lg:py-3 lg:px-8 px-2 py-5 my-5 lg:my-0'}
                      id={'background4'}>
-                    <img className={'mx-3'} src={person4} alt=""/>
+                    <img className={'lg:mx-3 ml-32 lg:mb-0 mb-1'} src={person4} alt=""/>
                     <p className={'text-gray-500'} style={{fontSize: '15px'}}>“Sog'ligimga bo'lgan barcha ehtiyojlarimni
                         tushunadigan shifokorni topish hech qachon oson bo'lmagan. Ushbu platforma mening hayotimni
                         o'zgartirdi. ”
