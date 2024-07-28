@@ -5,7 +5,7 @@ function Home(props) {
 
     return (
         <div>
-            <div id={'home'} className={'lg:flex lg:px-32 px-5  w-full'}>
+            <div id={'home'} className={'lg:flex xl:flex lg:px-28 xl:px-32  px-5  w-full h-auto'}>
                 <div  className={'lg:w-6/12 w-full lg:pt-20 text-center lg:text-start'}>
                     <h1 data-aos="fade-down" className={'font-bold text-5xl lg:pt-20 pt-40'}>
                         <span id={'color'} className={'font-bold text-5xl'}>SAFO MED </span>Angredagi

@@ -3,11 +3,11 @@ import {CheckCircleFilled} from "@ant-design/icons";
 
 function MurojaatUchun(props) {
     return (
-        <div id={'murojaat'} className={'w-full h-fit lg:px-32 px-5 mt-10 lg:mt-40'}>
+        <div id={'murojaat'} className={'w-full h-auto lg:px-28 xl:px-32 px-5 py-52'}>
             <div className={'bg-white relative z-20 w-full lg:h-72 border-2 rounded-3xl border-blue-200 p-8'}>
                 <h1 className={'font-bold text-2xl lg:text-4xl'} style={{color: '#0069AB'}}>Murojaat uchun 3 ta qadam
                     orqali osongina qabulga yoziling</h1>
-                <div className={"lg:flex lg:gap-20 mt-10 w-full text-gray-500 text-xl"}>
+                <div className={"lg:flex lg:gap-5 xl:gap-20 mt-10 w-full text-gray-500 text-xl"}>
                     <div className={'py-5 lg:py-0 '}>
                         <label htmlFor="input1" className={'flex gap-3 items-center mb-3 lg:mb-0'}>
                             <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
@@ -56,7 +56,7 @@ function MurojaatUchun(props) {
                                className={'py-4 h-14 overflow-hidden w-full lg:w-64 rounded-xl px-2 outline outline-2 outline-gray-200 lg:mt-5 '}/>
                     </div>
                     <div className={' pt-4 lg:pt-12'}>
-                        <button className={'py-4 items-center px-8 rounded-lg text-white flex gap-5'}
+                        <button className={'py-4 items-center lg:px-6 px-8 rounded-lg text-white flex gap-5'}
                                 style={{backgroundColor: '#00A4F4'}}>Jo’natish<CheckCircleFilled
                             className={'text-white'} style={{backgroundColor: '#00A4F4'}}/></button>
                     </div>

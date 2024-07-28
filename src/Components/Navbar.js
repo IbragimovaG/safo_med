@@ -21,7 +21,7 @@ const toggleMenu = () => {
     };
 
     return (
-        <div id={'navbar'} className={'w-full h-20 py-5 flex  items-center lg:justify-around justify-between lg:px-0 px-10 fixed bg-white z-40'}>
+        <div id={'navbar'} className={'w-full h-20 py-5 flex  items-center lg:justify-around  xl:justify-around justify-between xl:px-10 lg:px-10 px-10 fixed bg-white z-40'}>
             <img src={require('../Assets/NavLogo.png')} alt=""/>
             <ul id={'ul'} className={`fixed inset-0 flex flex-col items-center justify-center gap-2 bg-white w-[50%] z-50 transform ${isOpen ? 'translate-x-0' : '-translate-x-full' } transition-transform duration-300 md:static md:flex-row md:gap-8 lg:gap-16 md:bg-transparent md:translate-x-0`}>
                 <li><a id={'a'} className={'text-black font-medium'} href="#aboutUs">BIZ HAQIMIZDA</a></li>

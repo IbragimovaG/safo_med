@@ -6,8 +6,8 @@ import linkedin from '../Assets/mdi_linkedin.svg'
 import youtube from '../Assets/mdi_youtube.svg'
 export default function Footer() {
   return (
-    <div className=' w-full lg:mt-0 mt-52 lg:h-[65vh] h-[230vh] bg-blue-50'>
-      <div className=' lg:flex lg:flex-row flex-col w-full  lg:gap-5 lg:pl-32 pl-16'>
+    <div className=' w-full lg:mt-32 mt-52 py-10 h-auto bg-blue-50'>
+      <div className=' lg:flex lg:flex-row flex-col w-full  lg:gap-5 xl:pl-32 lg:pl-24 pl-16'>
         <div className='w-[100%] lg:w-1/4 py-14 pt-20 lg:px-5'>
           <img className='' src={logo} alt="" />
           <p className='mt-10 lg:w-auto w-60'>Experience personalized medical care from the comfort of your home.</p>

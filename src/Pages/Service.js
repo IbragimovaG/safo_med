@@ -2,7 +2,7 @@ import React from 'react';
 
 function Service(props) {
     return (
-        <div id={'service'} className={'w-full h-fit mt-32 relative'}>
+        <div id={'service'} className={'w-full h-fit  relative'}>
             <h1 data-aos='fade-up' className={'text-center text-5xl font-bold '}>Bizning xizmatlar</h1>
             <p data-aos='zoom-out' className={'m-auto text-center font-medium mt-10 text-gray-400 w-full lg:w-6/12 px-5 lg:px-0'}>Bugungi tez sur'atlar bilan
                 rivojlanayotgan dunyoda sizning sog'lig'ingiz
@@ -11,7 +11,7 @@ function Service(props) {
                 etadi</p>
             <img src={require('../Assets/vector5.png')} className={'absolute lg:top-44 lg:left-28 top-72 left-0 w-48'} alt=""/>
             <img src={require('../Assets/vector6.png')} className={'absolute lg:bottom-14 lg:right-32 bottom-24 right-0  w-48'} alt=""/>
-                <div className={'lg:flex lg:px-32 px-5 gap-5 lg:ml-16 lg:mt-10 mt-16'}>
+                <div className={'lg:flex lg:px-10 xl:px-32 px-5 gap-5 lg:ml-16 lg:mt-10 mt-16'}>
                     <div 
                         className={'w-full lg:w-7/12 my-10 lg:my-0 rounded-3xl outline outline-2 outline-blue-200 flex flex-col gap-5 p-10 hover:-translate-y-3 hover:duration-700 hover:shadow-xl'}>
                         <svg width="55" height="55" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@ function Service(props) {
                             bo’limidan o’z shikoyatingizni kiriting va sizga aloqaga chiqishadi.</p>
                     </div>
                 </div>
-            <div className={'lg:flex lg:pr-52  lg:pl-48 px-5 gap-5  mt-10 pb-20'}>
+            <div className={'lg:flex lg:pr-28  lg:pl-28 xl:pr-52  xl:pl-48 px-5 gap-5  mt-10 pb-20'}>
                 <div
                     className={'w-full lg:w-1/3 my-10 lg:my-0 rounded-3xl outline outline-2 outline-blue-200 flex flex-col gap-5 p-10 hover:-translate-y-3 hover:duration-700 hover:shadow-xl'}>
                     <svg width="55" height="55" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">

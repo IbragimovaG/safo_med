@@ -14,21 +14,21 @@ import { useEffect } from 'react';
 
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({})
-  },[])
+  }, [])
   return (
-    <div className="App">
-        <Navbar/>
-        <Home/>
-        <MurojaatUchun/>
-        <Service/>
-        <Info/>
-        <AboutUs/>
-        <Blog/>
-        <Doctors/>
-        <Contact/>
-        <Footer/>
+    <div className="App xl:container mx-auto">
+      <Navbar />
+      <Home />
+      <MurojaatUchun />
+      <Service />
+      <Info />
+      <AboutUs />
+      <Blog />
+      <Doctors />
+      <Contact />
+      <Footer /> 
     </div>
   );
 }

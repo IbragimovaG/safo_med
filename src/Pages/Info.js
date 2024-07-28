@@ -2,15 +2,15 @@ import React from 'react';
 
 function Info(props) {
     return (
-        <div id={'aboutUs'} className={'w-full h-screen lg:px-32 px-5'}>
-            <div className={' rounded-3xl outline outline-2 out outline outline-2 outline-blue-200 p-5 mt-10'}>
+        <div id={'aboutUs'} className={'w-full h-auto xl:px-32 lg:px-28 px-5 py-32'}>
+            <div className={' rounded-3xl  outline  outline-2 outline-blue-200 p-5 mt-10'}>
                 <h1 className={'text-5xl font-bold text-center'}><span id={'color'} className={'text-5xl font-bold'}>SAFO MED </span> Haqida
                 </h1>
                 <div className={'lg:flex p-10'}>
-                    <div className={'lg:w-1/2 w-full'}>
+                    <div className={'w-full'}>
                         <img data-aos='fade-right' className={'lg:mt-10'} src={require('../Assets/Doctor2.png')} alt=""/>
                     </div>
-                    <div data-aos='fade-left' className={'lg:w-1/2 w-full'}>
+                    <div data-aos='fade-left' className={'w-full'}>
                         <p className={'mt-5'}>SAFO MED- bu shunchaki onlayn tibbiy xizmatdan ko'proq; bu hamma uchun qulay,
                             samarali va mehrli sog'liqni saqlashga qaratilgan harakat. Vizyonli shifokorlar,
                             sog'liqni saqlash sohasi mutaxassislari va texnologiya mutaxassislari jamoasi tomonidan
