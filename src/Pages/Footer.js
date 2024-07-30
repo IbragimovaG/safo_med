@@ -9,7 +9,7 @@ export default function Footer() {
     <div className=' w-full lg:mt-32 mt-52 py-10 h-auto bg-blue-50'>
       <div className=' lg:flex lg:flex-row flex-col w-full  lg:gap-5 xl:pl-32 lg:pl-24 pl-16'>
         <div className='w-[100%] lg:w-1/4 py-14 pt-20 lg:px-5'>
-          <img className='' src={logo} alt="" />
+        <a  href="home"><img src={logo} alt="" /></a>
           <p className='mt-10 lg:w-auto w-60'>Experience personalized medical care from the comfort of your home.</p>
         </div>
         <div className='w-[100%] lg:w-1/4 py-14 lg:pl-5'>

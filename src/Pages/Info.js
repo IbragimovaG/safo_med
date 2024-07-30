@@ -1,8 +1,53 @@
-import React from 'react';
+import { Button, Form, Input, Modal } from 'antd';
+import React, { useState } from 'react';
 
 function Info(props) {
+    const [modalVisible, setModalVisible] = useState(false);
+    const [form] = Form.useForm();
+
+    const toggleModal = () => {
+        setModalVisible(prev => !prev);
+    };
+
+    const onFinish = () => {
+        form.resetFields();
+        toggleModal();
+    };
+
+
     return (
         <div id={'aboutUs'} className={'w-full h-auto xl:px-32 lg:px-28 px-5 py-32'}>
+             <Modal
+                title="Doctor bilan bog'lanish uchun ma'lumotingizni kiriting"
+                visible={modalVisible}
+                onCancel={toggleModal}
+                footer={null}
+            >
+                <Form form={form} onFinish={onFinish}>
+                    <Form.Item
+                        name="name"
+                        rules={[{ required: true, message: 'Ismingizni kiriting' }]}
+                    >
+                        <Input
+                            className="py-2 mt-4 w-full text-xl px-2 text-blue-700 border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl"
+                            placeholder="Ismingizni kiriting"
+                        />
+                    </Form.Item>
+                    <Form.Item
+                        name="phone"
+                        rules={[{ required: true, message: 'Telefon raqamingizni kiriting' }]}
+                    >
+                        <Input
+                            className="py-2 w-full text-xl px-2 text-blue-700 border-2 border-blue-200 hover:outline outline-2 outline-blue-500 rounded-xl"
+                            type="tel"
+                            placeholder="Telefon raqamingizni kiriting"
+                        />
+                    </Form.Item>
+                    <Form.Item>
+                        <Button htmlType="submit" type="primary" className="w-full py-5">Yuborish</Button>
+                    </Form.Item>
+                </Form>
+            </Modal>
             <div className={' rounded-3xl  outline  outline-2 outline-blue-200 p-5 mt-10'}>
                 <h1 className={'text-5xl font-bold text-center'}><span id={'color'} className={'text-5xl font-bold'}>SAFO MED </span> Haqida
                 </h1>
@@ -20,7 +65,7 @@ function Info(props) {
                             qurilgan bo'lib, har bir o'zaro aloqa shaxsiylashtirilganligini va har bir davolash
                             rejasi sizning noyob ehtiyojlaringizga moslashtirilganligini ta'minlaydi. </p>
                         <button style={{backgroundColor: '#00A4F4'}}
-                                className={'text-xl mt-8 lg:w-40 w-full rounded-xl text-white font-medium py-3 px-8'}>Bog’lanish
+                                className={'text-xl mt-8 lg:w-40 w-full rounded-xl text-white font-medium py-3 px-8'} onClick={toggleModal}>Bog’lanish
                         </button>
                     </div>
                 </div>

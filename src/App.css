@@ -23,6 +23,7 @@ body{
    position: absolute;
    margin-top: -40vh;
    width: 100%;
+   z-index: -1;
 }
 html{
    scroll-behavior: smooth;
